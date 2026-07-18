@@ -7,7 +7,7 @@
 ```
 include/   # 头文件 (.h)
 src/       # 实现 (.c)
-test/      # 测试 (assert)
+test/      # 测试 
 examples/  # 演示程序
 build/     # 编译产物
 docs/      # 学习笔记
@@ -24,3 +24,4 @@ gcc -Iinclude src/sequential_list.c test/seqlist_test.c -o build/test.exe
 | 结构 | 状态 |
 |------|------|
 | 顺序表 | ✅ |
+| 单链表（带头结点） | ✅ |
