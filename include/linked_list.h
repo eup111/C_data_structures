@@ -10,7 +10,8 @@ void linkedlist_destroy(linkedlist* p);
 
 int linkedlist_getlength(linkedlist* p);
 
-void linkedlist_add(linkedlist* p,linkedlist* q);
+void linkedlist_addtail(linkedlist* p,linkedlist* q);
+void linkedlist_addhead(linkedlist* p,linkedlist* q);
 void linkedlist_insert(linkedlist* p,int pos,linkedlist* q);
 void linkedlist_delete(linkedlist* p,int pos);
 int linkedlist_get(linkedlist* p,int pos);

@@ -13,8 +13,8 @@ int main() {
     linkedlist *c = malloc(sizeof(linkedlist));
     c->data = 3; c->next = NULL;
 
-    linkedlist_add(&head, a);
-    linkedlist_add(&head, c);
+    linkedlist_addtail(&head, a);
+    linkedlist_addhead(&head, c);
     linkedlist_insert(&head, 2, b);
     linkedlist_print(&head);
 

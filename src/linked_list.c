@@ -21,7 +21,7 @@ int linkedlist_getlength(linkedlist* p){
     return count;
 }
 
-void linkedlist_add(linkedlist* p,linkedlist* q){
+void linkedlist_addtail(linkedlist* p,linkedlist* q){
     q->next=NULL;
     linkedlist* temp = p;
     while(temp->next){
@@ -29,6 +29,10 @@ void linkedlist_add(linkedlist* p,linkedlist* q){
     }
     temp->next = q;
     
+}
+void linkedlist_addhead(linkedlist* p,linkedlist* q){
+    q->next = p->next;
+    p->next = q;
 }
 void linkedlist_insert(linkedlist* p,int pos,linkedlist* q){
     linkedlist* temp = p;
