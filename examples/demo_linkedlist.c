@@ -11,7 +11,7 @@ int main() {
     linkedlist *b = malloc(sizeof(linkedlist));
     b->data = 200; b->next = NULL;
 
-    linkedlist_add(&head, a);
+    linkedlist_addtail(&head, a);
     printf("add 100:  "); linkedlist_print(&head);
 
     linkedlist_insert(&head, 2, b);
