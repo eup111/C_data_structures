@@ -60,3 +60,16 @@ gcc -Iinclude src/sequential_list.c test/seqlist_test.c -o build/test.exe
 | `dlinkedlist_delete` | 指定位置删除 |
 | `dlinkedlist_get` | 按位置取值 |
 | `dlinkedlist_print` | 打印 |
+
+### 循环双链表（带头结点） — `cdlinkedlist`
+
+| 函数 | 说明 |
+|------|------|
+| `cdlinkedlist_init` | 初始化头结点 |
+| `cdlinkedlist_destroy` | 销毁 |
+| `cdlinkedlist_addtail` | 尾插 |
+| `cdlinkedlist_addhead` | 头插 |
+| `cdlinkedlist_insert` | 指定位置插入 |
+| `cdlinkedlist_delete` | 指定位置删除 |
+| `cdlinkedlist_get` | 按位置取值 |
+| `cdlinkedlist_print` | 打印 |

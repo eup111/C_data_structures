@@ -8,7 +8,7 @@ void seqlist_init(seqlist* seq,int capacity){
     seq->capacity = capacity;
 }
 
-void seqlist_destory(seqlist* seq){
+void seqlist_destroy(seqlist* seq){
     free(seq->data);
 }
 

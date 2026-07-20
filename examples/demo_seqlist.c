@@ -19,6 +19,6 @@ int main() {
     printf("get pos 0 = %d\n", seqlist_get(&list, 0));
     printf("length = %d\n", seqlist_getlength(&list));
 
-    seqlist_destory(&list);
+    seqlist_destroy(&list);
     return 0;
 }

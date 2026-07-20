@@ -9,7 +9,7 @@ typedef struct{
 }seqlist;
 
 void seqlist_init(seqlist* seq,int capacity);   /* 初始化，分配 capacity 空间 */
-void seqlist_destory(seqlist* seq);              /* 销毁，释放 data */
+void seqlist_destroy(seqlist* seq);              /* 销毁，释放 data */
 
 int seqlist_getlength(seqlist* seq);             /* 返回当前长度 */
 
