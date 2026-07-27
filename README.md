@@ -1,6 +1,6 @@
 # C 数据结构库
 
-考研数据结构复习 + C 工程实践。
+考研数据结构复习 
 
 ## 结构
 
@@ -33,6 +33,17 @@ gcc -Iinclude src/sequential_list.c test/seqlist_test.c -o build/test.exe
 | `seqlist_get` | 按位置取值 |
 | `seqlist_getlength` | 获取长度 |
 | `seqlist_print` | 打印 |
+
+### 顺序栈 — `sqstack`
+
+| 函数 | 说明 |
+|------|------|
+| `sqstack_init` | 初始化 |
+| `sqstack_destroy` | 销毁 |
+| `sqstack_push` | 入栈 |
+| `sqstack_pop` | 出栈 |
+| `sqstack_gettop` | 取栈顶 |
+| `sqstack_isempty` | 判空 |
 
 ### 单链表（带头结点） — `linkedlist`
 
