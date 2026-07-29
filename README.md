@@ -45,6 +45,17 @@ gcc -Iinclude src/sequential_list.c test/seqlist_test.c -o build/test.exe
 | `sqstack_gettop` | 取栈顶 |
 | `sqstack_isempty` | 判空 |
 
+### 链栈（带头结点） — `listack`
+
+| 函数 | 说明 |
+|------|------|
+| `listack_init` | 初始化 |
+| `listack_destroy` | 销毁 |
+| `listack_push` | 入栈 |
+| `listack_pop` | 出栈 |
+| `listack_gettop` | 取栈顶 |
+| `listack_isempty` | 判空 |
+
 ### 单链表（带头结点） — `linkedlist`
 
 | 函数 | 说明 |
