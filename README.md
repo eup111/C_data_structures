@@ -8,7 +8,6 @@
 include/   # 头文件 (.h)
 src/       # 实现 (.c)
 test/      # 测试
-examples/  # 演示程序
 build/     # 编译产物
 docs/      # 学习笔记
 ```
@@ -55,6 +54,17 @@ gcc -Iinclude src/sequential_list.c test/seqlist_test.c -o build/test.exe
 | `listack_pop` | 出栈 |
 | `listack_gettop` | 取栈顶 |
 | `listack_isempty` | 判空 |
+
+### 顺序队列 — `sqquene`
+
+| 函数 | 说明 |
+|------|------|
+| `sqquene_init` | 初始化 |
+| `sqquene_destroy` | 销毁 |
+| `sqquene_en` | 入队 |
+| `sqquene_de` | 出队 |
+| `sqquene_gethead` | 取队头 |
+| `sqquene_isempty` | 判空 |
 
 ### 单链表（带头结点） — `linkedlist`
 
