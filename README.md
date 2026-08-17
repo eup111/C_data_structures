@@ -66,6 +66,19 @@ gcc -Iinclude src/sequential_list.c test/seqlist_test.c -o build/test.exe
 | `sqquene_gethead` | 取队头 |
 | `sqquene_isempty` | 判空 |
 
+### 循环队列 — `cdquene`
+
+| 函数 | 说明 |
+|------|------|
+| `cdquene_init` | 初始化 |
+| `cdquene_destroy` | 销毁 |
+| `cdquene_en` | 入队 |
+| `cdquene_de` | 出队 |
+| `cdquene_gethead` | 取队头 |
+| `cdquene_isempty` | 判空 |
+| `cdquene_isfull` | 判满 |
+| `cdquene_length` | 队列长度 |
+
 ### 单链表（带头结点） — `linkedlist`
 
 | 函数 | 说明 |
