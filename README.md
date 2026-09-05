@@ -79,6 +79,16 @@ gcc -Iinclude src/sequential_list.c test/seqlist_test.c -o build/test.exe
 | `cdquene_isfull` | 判满 |
 | `cdquene_length` | 队列长度 |
 
+### 二叉树 — `binode` / `bitree`
+
+| 函数 | 说明 |
+|------|------|
+| `binode_init` | 初始化结点 |
+| `binode_addchild` | 挂左右孩子 |
+| `preorder` | 先序遍历 |
+| `inorder` | 中序遍历 |
+| `postorder` | 后序遍历 |
+
 ### 单链表（带头结点） — `linkedlist`
 
 | 函数 | 说明 |
