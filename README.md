@@ -89,6 +89,22 @@ gcc -Iinclude src/sequential_list.c test/seqlist_test.c -o build/test.exe
 | `inorder` | 中序遍历 |
 | `postorder` | 后序遍历 |
 
+### 邻接矩阵图 — `MGraph`
+
+| 函数 | 说明 |
+|------|------|
+| `MGraph_init` | 初始化（分配 vex / edge） |
+
+字段：`Maxvex` `Maxarc` `vexnum` `arcnum` `vex[]` `edge[]`
+
+### 邻接表图 — `ALGraph`
+
+| 函数 | 说明 |
+|------|------|
+| `ALGraph_init` | 初始化（分配顶点数组） |
+
+结构：`adjlist`（顶点数组）/ `arcnode`（边结点）/ `ALGraph`
+
 ### 单链表（带头结点） — `linkedlist`
 
 | 函数 | 说明 |
